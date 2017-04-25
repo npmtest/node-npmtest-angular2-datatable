@@ -1,6 +1,6 @@
 # npmtest-angular2-datatable
 
-#### test coverage for  [angular2-datatable (v0.6.0)](https://github.com/mariuszfoltak/angular2-datatable#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-datatable.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-datatable) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-datatable.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-datatable)
+#### basic test coverage for  [angular2-datatable (v0.6.0)](https://github.com/mariuszfoltak/angular2-datatable#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-datatable.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-datatable) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-datatable.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-datatable)
 
 #### DataTable component for Angular2 framework
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-angular2-datatable/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-datatable/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-angular2-datatable/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-datatable/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-datatable/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-datatable/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-angular2-datatable/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-angular2-datatable/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-datatable/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-datatable/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-angular2-datatable/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-angular2-datatable/build/coverage.html/index.html)
 
@@ -118,7 +118,8 @@
         "start": "http-server -c-1 -o -p 8875 .",
         "test": "karma start karma.conf.js"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
